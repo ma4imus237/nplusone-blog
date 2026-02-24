@@ -1,0 +1,15 @@
+{
+  "name": "n-plus-1-blog",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server -D",
+    "build": "hugo --minify"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <h1 class="font-serif text-blog-title font-semibold text-fg mb-8">{{ .Title }}</h1>
+  <ul class="list-none p-0 m-0">
+    {{ range .Pages.ByDate.Reverse }}
+    <li class="py-5">
+      <a href="{{ .RelPermalink }}" class="grid grid-cols-[auto_1fr] gap-x-8 no-underline text-fg transition-hover hover:opacity-70 sm:grid-cols-[auto_1fr] grid-cols-1">
+        <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-serif text-body text-fg-muted whitespace-nowrap hidden sm:block">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+        <div>
+          <strong class="font-serif text-body font-bold block">{{ .Title }}</strong>
+          <span class="font-serif text-body text-fg-muted">
+            {{ with .Params.author }}{{ . }}{{ else }}{{ $.Site.Params.author }}{{ end }}
+            <span class="sm:hidden"> &middot; {{ .Date.Format "Jan 2, 2006" }}</span>
+          </span>
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}

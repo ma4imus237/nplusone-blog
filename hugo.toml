@@ -1,0 +1,24 @@
+baseURL = 'https://nplusone.blog/'
+languageCode = 'en'
+title = 'n+1'
+defaultContentLanguage = 'en'
+
+[params]
+  author = 'Massimo'
+  description = 'n+1'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+  [markup.highlight]
+    noClasses = false
+
+[outputs]
+  home = ['HTML', 'RSS']
+  section = ['HTML', 'RSS']
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = '0.128.0'

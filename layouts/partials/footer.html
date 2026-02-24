@@ -1,0 +1,11 @@
+<footer class="max-w-content mx-auto px-4 pt-12 pb-4">
+  <div class="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-0 font-sans text-footer text-fg-muted">
+    <span>n+1 &copy; {{ now.Year }}</span>
+    <span class="hidden sm:inline mx-2">&middot;</span>
+    <a href="/imprint/" class="no-underline transition-hover hover:opacity-70 text-fg-muted">Imprint</a>
+    <span class="hidden sm:inline mx-2">&middot;</span>
+    {{ with .Site.Home.OutputFormats.Get "RSS" }}
+    <a href="{{ .RelPermalink }}" class="no-underline transition-hover hover:opacity-70 text-fg-muted">RSS</a>
+    {{ end }}
+  </div>
+</footer>
