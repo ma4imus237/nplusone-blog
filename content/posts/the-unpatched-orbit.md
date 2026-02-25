@@ -1,6 +1,6 @@
 ---
 title: "The Unpatched Orbit"
-date: 2026-02-22
+date: 2025-06-15
 author: "Massimo"
 description: "Space is now a contested warfighting domain, and cyber is the cheapest weapon in it. The Viasat hack proved it. GPS jamming normalizes it. Most satellites in orbit have no defense against either."
 lang: "en"

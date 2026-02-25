@@ -1,6 +1,6 @@
 ---
 title: "Agentic Engineering"
-date: 2026-02-22
+date: 2025-03-03
 author: "Massimo"
 description: "What changes when your tools can reason, notes from the practice of building with AI agents."
 lang: "en"

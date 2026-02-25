@@ -1,6 +1,6 @@
 ---
 title: "Every Satellite Is an Endpoint"
-date: 2026-02-22
+date: 2025-08-04
 author: "Massimo"
 description: "The attack surface in orbit is not growing linearly. It is growing exponentially, and the security architecture has not kept up. A technical look at why space infrastructure is becoming the largest undefended network on Earth."
 lang: "en"

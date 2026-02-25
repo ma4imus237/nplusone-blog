@@ -1,6 +1,6 @@
 ---
 title: "The Seventeen Elements"
-date: 2026-02-23
+date: 2026-02-17
 author: "Massimo"
 description: "Every wind turbine, every electric vehicle, every missile guidance system depends on a group of metals most people cannot name. The energy transition is a rare earth transition, and the supply chain that delivers them is being rebuilt from scratch."
 lang: "en"

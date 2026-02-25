@@ -1,6 +1,6 @@
 ---
 title: "The New Infrastructure"
-date: 2026-02-22
+date: 2025-05-08
 author: "Massimo"
 description: "Space-based communication is becoming infrastructure, like undersea cables or cell towers before it. The revolution is not the rockets. It is what they are putting into orbit."
 lang: "en"

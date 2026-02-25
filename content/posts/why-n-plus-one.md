@@ -1,6 +1,6 @@
 ---
 title: "Why n+1"
-date: 2026-02-22
+date: 2025-01-19
 author: "Massimo"
 description: "The mathematical idea behind the name, from Peano's successor function to the inductive step, and why every next thing matters."
 lang: "en"

@@ -1,6 +1,6 @@
 ---
 title: "Hello, World"
-date: 2026-02-22
+date: 2025-01-12
 author: "Massimo"
 description: "The first post on n+1, a brief introduction."
 draft: false

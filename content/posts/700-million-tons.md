@@ -1,6 +1,6 @@
 ---
 title: "700 Million Tons"
-date: 2026-02-22
+date: 2025-11-10
 author: "Massimo"
 description: "Three defining trends of our era, the green transition, global rearmament, and the AI explosion, all demand the same finite pool of critical raw materials. The supply chain is controlled by China. The math does not work. And the physics is not negotiable."
 lang: "en"

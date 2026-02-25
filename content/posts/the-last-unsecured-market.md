@@ -1,6 +1,6 @@
 ---
 title: "The Last Unsecured Market"
-date: 2026-02-22
+date: 2025-09-22
 author: "Massimo"
 description: "Space cybersecurity is becoming an investment category. The threat is real, the market is forming, and the companies building defenses for orbital infrastructure are following a pattern that terrestrial cybersecurity established two decades ago."
 lang: "en"
