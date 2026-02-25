@@ -1,34 +1,5 @@
 <header class="max-w-content mx-auto px-4 py-4">
-  <div class="flex items-center justify-between">
+  <div class="flex items-center">
     <a href="/" class="font-logo text-logo font-medium text-fg-muted no-underline transition-hover hover:opacity-70">n+1</a>
-    {{/* Desktop navigation */}}
-    <nav class="hidden sm:flex items-center gap-7">
-      <a href="/posts/" class="font-sans text-nav text-fg-nav no-underline transition-hover hover:opacity-70">Blog</a>
-      <a href="/about/" class="font-sans text-nav text-fg-nav no-underline transition-hover hover:opacity-70">About</a>
-    </nav>
-    {{/* Mobile hamburger button */}}
-    <button
-      id="menu-toggle"
-      class="sm:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5"
-      aria-label="Toggle menu"
-      aria-expanded="false"
-    >
-      <span class="block w-5 h-px bg-fg transition-all duration-300" id="bar-1"></span>
-      <span class="block w-5 h-px bg-fg transition-all duration-300" id="bar-2"></span>
-      <span class="block w-5 h-px bg-fg transition-all duration-300" id="bar-3"></span>
-    </button>
   </div>
-  {{/* Mobile navigation menu */}}
-  <nav id="mobile-menu" class="sm:hidden hidden pt-4 pb-2">
-    <a href="/posts/" class="block py-2 font-sans text-nav text-fg-nav no-underline transition-hover hover:opacity-70">Blog</a>
-    <a href="/about/" class="block py-2 font-sans text-nav text-fg-nav no-underline transition-hover hover:opacity-70">About</a>
-  </nav>
-  <script>
-    document.getElementById('menu-toggle').addEventListener('click', function() {
-      const menu = document.getElementById('mobile-menu');
-      const expanded = this.getAttribute('aria-expanded') === 'true';
-      this.setAttribute('aria-expanded', !expanded);
-      menu.classList.toggle('hidden');
-    });
-  </script>
 </header>

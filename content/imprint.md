@@ -1,17 +1,18 @@
 ---
 title: "Imprint"
 lang: "de"
+noindex: true
 ---
 
 ## Angaben gemäß § 5 TMG
 
-[TODO: Vorname Nachname]
-[TODO: Straße Hausnummer]
-[TODO: PLZ Ort]
+Massimo Gerland
+Schaumburgerstraße 39
+31553 Sachsenhagen
 
 ## Kontakt
 
-E-Mail: [TODO: E-Mail-Adresse]
+E-Mail: massimog1994@gmail.com
 
 ## Haftungsausschluss
 
